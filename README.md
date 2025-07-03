@@ -12,7 +12,6 @@ Previously the source gasket driver from Google didn't work with kernel versions
 git clone https://github.com/jnicolson/gasket-builder
 cd gasket-builder
 docker buildx build --output type=tar,dest=./deb.tar .
-docker build --output . .
 tar xvf deb.tar
 ```
 
